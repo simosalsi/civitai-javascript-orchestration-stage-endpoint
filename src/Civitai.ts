@@ -48,7 +48,7 @@ class Civitai {
     const baseURL =
       config.env === "dev"
         ? "https://orchestration-dev.civitai.com"
-        : "https://orchestration.civitai.com";
+        : "https://orchestration-stage.civitai.com";
 
     OpenAPI.BASE = baseURL;
     OpenAPI.HEADERS = {

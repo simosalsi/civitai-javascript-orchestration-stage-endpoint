@@ -20,7 +20,7 @@ export type OpenAPIConfig = {
 };
 
 export const OpenAPI: OpenAPIConfig = {
-  BASE: "https://orchestration.civitai.com",
+  BASE: "https://orchestration-stage.civitai.com",
   VERSION: "1",
   WITH_CREDENTIALS: false,
   CREDENTIALS: "include",
